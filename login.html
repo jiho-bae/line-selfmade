@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login_self-coding-line</title>
+  </head>
+
+  <body>
+    <link rel="stylesheet" href="css/style.css" />
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>11:31</span>
+        <i class="fas fa-location-arrow"></i>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-half fa-lg"></i>
+      </div>
+    </div>
+
+    <div class="header-bar">
+      <div class="header-bar__column">
+        <a href="index.html">
+          <i class="fas fa-chevron-left"></i>
+        </a>
+        <span></span>
+      </div>
+      <div class="header-bar__column">
+        <i class="far fa-question-circle login__question-icon"></i>
+      </div>
+    </div>
+
+    <main class="login-screen">
+      <div class="login-header">
+        <h1 class="login-header__title text-header__title">
+          기기 전화번호를 입력해 주세요.
+        </h1>
+        <p class="login-header__subtitle text-header__subtitle">
+          다음 사항에 동의할 경우 전화번호를 입력하고 화살표 아이콘을 탭해
+          주세요.
+        </p>
+      </div>
+      <form class="login-form" action="friend.html" method="post">
+        <select class="login-form__nation" name="nation">
+          <option value="">대한민국 (Republic of Korea)</option>
+          <option value="중국">중국 (China)</option>
+          <option value="일본">일본 (Japan)</option>
+          <option value="미국">미국 (United States)</option>
+          <option value="기타">기타 (etc.)</option>
+        </select>
+        <input
+          required
+          class="login-form__phone-number"
+          type="text"
+          placeholder="전화번호 입력"
+        />
+        <div class="login-form__div">
+          <input required type="checkbox" id="login-form__checkbox1" />
+          <label for="login-form__checkbox1">만 14세 이상입니다.</label>
+        </div>
+        <div class="login-form__div">
+          <input required type="checkbox" id="login-form__checkbox2" />
+          <label for="login-form__checkbox2"
+            >LIME <a href="#">이용약관</a>에 동의합니다.</label
+          >
+        </div>
+        <div class="login-form__div">
+          <input required type="checkbox" id="login-form__checkbox3" />
+          <label for="login-form__checkbox3"
+            >LIME <a href="#">개인정보 처리방침</a>에 동의합니다.</label
+          >
+        </div>
+        <div class="login-form__div-submit">
+          <input type="submit" value="&#xf061;" />
+        </div>
+      </form>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/e9b8a96210.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

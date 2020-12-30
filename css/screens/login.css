@@ -1,0 +1,89 @@
+.login-screen {
+  padding: 30px 40px;
+}
+
+.login__question-icon {
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.login-header {
+  margin-bottom: 25px;
+}
+.login-header__title {
+  font-size: 35px;
+}
+
+.login-header__subtitle {
+  width: 85%;
+  text-align: left;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form__nation,
+.login-form__phone-number,
+.login-form__div {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.login-form__nation,
+.login-form__phone-number {
+  border: none;
+}
+
+.login-form__nation {
+  width: 250px;
+  height: 40px;
+}
+
+.login-form__nation:focus {
+  outline: none;
+}
+
+.login-form__phone-number {
+  height: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.login-form__phone-number::placeholder {
+  color: var(--light-gray);
+  font-size: 23px;
+}
+
+.login-form__div {
+  display: flex;
+  align-items: center;
+}
+
+#login-form__checkbox1,
+#login-form__checkbox2,
+#login-form__checkbox3 {
+  display: inline-block;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.login-form__div-submit {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 200px;
+}
+.login-form__div-submit input {
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: FontAwesome;
+  cursor: pointer;
+}

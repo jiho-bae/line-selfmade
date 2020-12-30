@@ -1,0 +1,16 @@
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px;
+  margin-bottom: 15px;
+}
+
+.header-bar__column:first-child {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.header-bar__column:last-child {
+  font-size: 22px;
+}
