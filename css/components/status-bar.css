@@ -1,0 +1,16 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 0px 15px;
+}
+.status-bar__column i {
+  margin-right: 5px;
+}
+
+.status-bar__column span {
+  font-weight: 500;
+  margin-left: 5px;
+}
