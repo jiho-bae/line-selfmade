@@ -1,0 +1,41 @@
+.user-info {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.user-info,
+.user-info__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-info__column:first-child {
+  width: 80%;
+}
+
+.user-info__column:last-child {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-info__column i {
+  margin-left: 15px;
+}
+
+.user-info__picture-m {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-info__info-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user-info__info-text {
+  font-size: 14px;
+  color: var(--gray);
+}

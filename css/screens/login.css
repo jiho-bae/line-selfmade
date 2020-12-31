@@ -52,7 +52,6 @@
 }
 
 .login-form__phone-number::placeholder {
-  color: var(--light-gray);
   font-size: 23px;
 }
 

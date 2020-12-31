@@ -1,0 +1,30 @@
+.navigation-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.navigation-bar__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.navigation-bar__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-bar__button i {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.navigation-bar__button span {
+  font-size: 12px;
+}

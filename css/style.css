@@ -5,10 +5,15 @@
 @import "components/status-bar.css";
 @import "components/text-header.css";
 @import "components/header-bar.css";
+@import "components/navigation-bar.css";
+@import "components/user-info.css";
+@import "components/search-box.css";
+@import "components/contents-main-bar.css";
 
 /* Screens */
 @import "screens/index.css";
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -19,6 +24,16 @@ input:focus {
   outline: none;
 }
 
+input::placeholder {
+  color: var(--light-gray);
+}
+
+a:link,
 a:visited {
   color: inherit;
+  text-decoration: none;
+}
+
+.messanger-main-screen {
+  padding: 0 15px;
 }

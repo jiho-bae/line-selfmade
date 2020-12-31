@@ -1,0 +1,25 @@
+.search-box {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.search-box__input {
+  padding: 10px 0px 10px 35px;
+  background-color: #f5f5f5;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+}
+.search-box i {
+  position: absolute;
+  color: var(--light-gray);
+}
+.search-box i:first-child {
+  left: 10px;
+}
+
+.search-box i:last-child {
+  right: 15px;
+}
