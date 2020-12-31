@@ -1,3 +1,6 @@
+.login-header-bar {
+  margin: 0px 30px;
+}
 .login-screen {
   padding: 30px 40px;
 }
@@ -15,7 +18,7 @@
 }
 
 .login-header__subtitle {
-  width: 85%;
+  width: 95%;
   text-align: left;
 }
 

@@ -1,0 +1,39 @@
+.chats-header-bar__column:first-child i {
+  margin-left: 5px;
+  font-size: 14px;
+}
+.chats-header-bar__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chats-user-info {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+.chats-user-info__info-name {
+  font-weight: 400;
+}
+
+.chats-user-info__column:first-child {
+  width: 90%;
+}
+
+.chats-user-info__column:last-child {
+  width: 10%;
+}
+
+.chats-user-info__info-text {
+  font-size: 15px;
+}
+
+#chats-user-info__new {
+  background-color: var(--green);
+  padding: 8px 9px;
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 5px;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login_self-coding-line</title>
+  </head>
+
+  <body>
+    <link rel="stylesheet" href="css/style.css" />
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>11:31</span>
+        <i class="fas fa-location-arrow"></i>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-half fa-lg"></i>
+      </div>
+    </div>
+
+    <main class="messanger-main-screen">
+      <div class="header-bar chats-header-bar">
+        <div class="header-bar__column chats-header-bar__column">
+          <span>대화</span>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="header-bar__column">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-video"></i>
+          <i class="far fa-comment-dots"></i>
+        </div>
+      </div>
+
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" class="search-box__input" placeholder="검색" />
+        <i class="fas fa-qrcode"></i>
+      </div>
+
+      <a href="chat.html">
+        <div class="user-info chats-user-info">
+          <div class="user-info__column chats-user-info__column">
+            <img
+              src="https://images.unsplash.com/photo-1609263001752-786ed152206f?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+              class="user-info__picture"
+            />
+            <div class="user-info__info">
+              <h4 class="user-info__info-name chats-user-info__info-name">
+                김김김
+              </h4>
+              <p class="user-info__info-text chats-user-info__info-text">
+                생일 축하해~
+              </p>
+            </div>
+          </div>
+          <div class="user-info__column chats-user-info__column">
+            <span id="chats-user-info__new">N</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="chat.html">
+        <div class="user-info chats-user-info">
+          <div class="user-info__column chats-user-info__column">
+            <i class="user-info__icon far fa-bell"></i>
+            <div class="user-info__info">
+              <h4 class="user-info__info-name chats-user-info__info-name">
+                Keep 메모
+              </h4>
+              <p class="user-info__info-text chats-user-info__info-text">
+                나만 볼 수 있는 대화방에 텍스트, 사진, 링크 등을 간편하게 전송해
+                보세요.
+              </p>
+            </div>
+          </div>
+          <div class="user-info__column chats-user-info__column">
+            <span id="chats-user-info__new">N</span>
+          </div>
+        </div>
+      </a>
+
+      </div>
+    </main>
+
+    <nav class="navigation-bar">
+      <ul class="navigation-bar__list">
+        <li class="navigation-bar__column">
+          <a href="friends.html" class="navigation-bar__button">
+            <i class="fas fa-home"></i>
+            <span class="navigation-bar__column-text">홈</span>
+          </a>
+        </li>
+        <li class="navigation-bar__column">
+          <a href="chats.html" class="navigation-bar__button">
+            <i class="fas fa-comment-dots"></i>
+            <span class="navigation-bar__column-text">대화</span>
+          </a>
+        </li>
+        <li class="navigation-bar__column">
+          <a href="timeline.html" class="navigation-bar__button">
+            <i class="far fa-clock"></i>
+            <span class="navigation-bar__column-text">타임라인</span>
+          </a>
+        </li>
+        <li class="navigation-bar__column">
+          <a href="call.html" class="navigation-bar__button">
+            <i class="fas fa-phone"></i>
+            <span class="navigation-bar__column-text">통화</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/e9b8a96210.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

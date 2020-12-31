@@ -5,6 +5,15 @@
   bottom: 10px;
   font-weight: 600;
 }
+.friends__user-info__info-text {
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 3px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid var(--light-gray);
+  border-radius: 15px;
+}
 
 .friends-service-bar,
 .friends-sticker-bar {

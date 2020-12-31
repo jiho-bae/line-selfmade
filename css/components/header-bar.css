@@ -2,15 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 30px;
   margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .header-bar__column:first-child {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 25px;
 }
 
 .header-bar__column:last-child {
   font-size: 22px;
+}
+
+.header-bar__column:last-child i {
+  margin-left: 15px;
 }
