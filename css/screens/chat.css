@@ -143,29 +143,15 @@
 }
 
 .reply .reply__column:first-child i {
-  position: absolute;
   font-size: 23px;
+  margin-right: 10px;
 }
 
 .reply .reply__column:first-child .fa-chevron-right {
+  position: absolute;
   left: 3px;
-  bottom: -10px;
+  bottom: -3px;
   opacity: 0;
-}
-
-.reply .reply__column:first-child .fa-plus {
-  left: 0px;
-  bottom: -7px;
-}
-
-.reply .reply__column:first-child .fa-camera {
-  left: 35px;
-  bottom: -7px;
-}
-
-.reply .reply__column:first-child .fa-images {
-  right: 18px;
-  bottom: -8px;
 }
 
 .reply .reply__column:nth-child(2) {
