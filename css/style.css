@@ -9,6 +9,7 @@
 @import "components/user-info.css";
 @import "components/search-box.css";
 @import "components/contents-main-bar.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/index.css";
