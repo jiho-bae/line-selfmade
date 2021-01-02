@@ -89,3 +89,7 @@
   font-family: FontAwesome;
   cursor: pointer;
 }
+
+.login-form__div-submit input:hover {
+  background-color: var(--green);
+}

@@ -1,6 +1,8 @@
 :root {
   --icon-green: #01b800;
   --green: #03c654;
+  --chat-green: #79e177;
   --gray: rgba(0, 0, 0, 0.4);
   --light-gray: rgba(0, 0, 0, 0.2);
+  --border-value: 1px solid #dddddd;
 }
