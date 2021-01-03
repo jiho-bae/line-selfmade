@@ -1,8 +1,8 @@
 .login-header-bar {
-  margin: 0px 30px;
+  padding: 0px 40px 10px 40px;
 }
 .login-screen {
-  padding: 30px 40px;
+  padding: 20px 30px;
 }
 
 .login__question-icon {
@@ -11,10 +11,10 @@
 }
 
 .login-header {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .login-header__title {
-  font-size: 35px;
+  font-size: 32px;
 }
 
 .login-header__subtitle {
@@ -77,7 +77,7 @@
 .login-form__div-submit {
   display: flex;
   justify-content: flex-end;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 .login-form__div-submit input {
   padding: 20px;

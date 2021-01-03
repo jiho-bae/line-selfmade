@@ -139,7 +139,7 @@
 }
 
 .reply .reply__column:first-child {
-  width: 25%;
+  width: 27%;
 }
 
 .reply .reply__column:first-child i {
@@ -155,7 +155,7 @@
 }
 
 .reply .reply__column:nth-child(2) {
-  width: 65%;
+  width: 63%;
   position: relative;
 }
 
